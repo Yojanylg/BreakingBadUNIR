@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" type="image/png" size="32px">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Breaking Bad</title>
+</head>
+<body id="bodyespecial"> 
+    <img src="img/logo.PNG" alt="Breaking Bad">
+    <form action="" method="post" name="Breakin Bad - Que comience el juego!">
+     <fieldset>
+        <legend>Datos personales</legend>
+             <span style="font-size: 12px;">Los campos marcados con * son obligatorios.</span><br>
+             Nombre*: <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+             Apellidos*: <input type="text" name="apellidos" placeholder="Escribe tus apellidos" required> <br>
+             Dirección postal: <input type="text" name="direccion" placeholder="Escribe tu direccion postal"><br>
+             DNI: <input type="text" name="dni" placeholder="DNI (numero y letra)"><br>
+             Correo electrónico*: <input type="email" name="email" id="" placeholder="Escribe tu correo electronico" required><br>
+             Sexo: <input type="radio" name="genero" id="" value="Hombre">Hombre
+                    <input type="radio" name="genero" id="" value="Mujer">Mujer
+                    <input type="radio" name="genero" id="" value="no declara">Prefiere no decirlo <br>
+             Fecha nacimiento: <input type="date" name="fecha-nacimiento" id="">
+    </fieldset>
+    <fieldset>
+        <legend>Tus preferencias</legend>
+        Tu Personaje: <select name="personajes" id="">
+                            <option value="1">Jessie Pionkman</option>
+                            <option value="2">Walter White</option>
+                            <option value="3">Saul Goodman</option>
+                            <option value="4">Gustavo Fring</option>
+                            <option value="5">Pollos Hermanos</option>
+                            <option value="6">Otros personajes</option>
+       </select>
+       <br>
+        Comentarios: <textarea name="comentarios" id="" cols="50" rows="20"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Acciones</legend>
+        <input type="file" name="adjuntar" id=""><br>
+        <input type="submit" value="Enviar" formaction="mailto:raul.rodriguez@proeducaglobal.com">
+        <input type="reset" value="Borrar formulario">
+        
+    </fieldset>
+    
+
+
+    </form>
+</body>
+</html>
